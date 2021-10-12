@@ -11,7 +11,13 @@ namespace DependencyInversion
         {
             Console.WriteLine("Hello World!");
 
-          
+            bool isAccepted = true;
+            bool isAvailable = true;
+
+            if (checkRule(isAccepted, isAvailable))
+            {
+
+            }
 
         }
 
